@@ -1,0 +1,291 @@
+
+body{
+    background-color: #e8ccd7;
+}
+
+h1{
+    color: #000;
+}
+
+h2 {
+    color: #000;
+}
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.231);
+    border-radius: 5px;
+}
+
+.btn-doc{
+    background-color: transparent;
+    color: #000;
+}
+
+.btn-reader {
+    background-color: transparent;
+    color: #000;
+}
+
+.btn-settings {
+    background-color: transparent;
+    color: #000;
+}
+
+/*Change Email*/
+.h1_title-email{
+    background-color: rgba(255, 255, 255, 0.231);
+}
+
+.change_div{
+    border: 1px solid #000;
+    background-color: transparent;
+}
+
+.input-email{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.changeEmail_btn{
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+
+/*Change Email End*/
+
+/*Change Pass*/
+.h1_title-pass{
+    background-color: rgba(255, 255, 255, 0.231);
+}
+
+.input-pass{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+.input-pass2{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.changePass_btn{
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+/*Change Pass End*/
+
+/*Change Settings*/
+.h1_title-settings{
+    background-color: rgba(255, 255, 255, 0.231);
+    border-radius: 5px;
+}
+
+.options {
+    background-color: #e8ccd7;
+}
+
+.theme{
+    background-color: rgba(255, 255, 255, 0.231);
+    color: #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-radius: 5px;
+}
+
+.theme:hover {
+    background-color: #fff;
+    color: #1A1A1A;
+}
+
+.change-email {
+    background-color: rgba(255, 255, 255, 0.231);
+    color: #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-radius: 5px;
+}
+
+.change-email:hover {
+    background-color: #fff;
+    color: #1A1A1A;
+}
+
+.change-pass {
+    background-color: rgba(255, 255, 255, 0.231);
+    color: #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-radius: 5px;
+}
+
+.change-pass:hover {
+    background-color: #fff;
+    color: #1A1A1A;
+}
+
+.logout {
+    background-color: rgba(255, 255, 255, 0.231);
+    color: #ff0000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-radius: 5px;
+}
+
+.logout:hover {
+    background-color: #fff;
+    color: #ff0000;
+}
+
+/*Change Settings End*/
+
+/*Change Documents*/
+.input_search {
+    background-color: #262626;
+    color: #fff;
+}
+/*Change Documents End*/
+
+/*Change NewDocument*/
+.arrow_back {
+    background-color: transparent;
+    color: #000;
+}
+
+.btn-save {
+    background-color: transparent;
+    color: #32CD32;
+}
+
+.btn-share {
+    background-color: transparent;
+    color: #A19997;
+}
+
+.textarea{
+    color: #000;
+    background-color: transparent;
+}
+
+.input-newdocument{
+    background-color: transparent;
+    color: #000;
+}
+/*Change NewDocument End*/
+
+/*Change WriteF*/
+.arrow {
+    color: #000;
+}
+
+.h2-writeF {
+    color: #000;
+}
+
+.email-input {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.forgot-input {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.forgot-input:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.cancel {
+    color: #000;
+}
+/*Change WriteF End*/
+
+/*Change WriteL*/
+.h2-writeL {
+    color: #000;
+}
+
+.email-input {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.pass-input {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.signin-input {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.signin-input:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.a-writeL {
+    color: #a9a9a9;
+}
+
+
+.reg {
+    color: #000;
+}
+
+.signup-a {
+    color: rgb(29, 155, 240);
+}
+/*Change WriteL End*/
+/*Change WriteR*/
+
+.h1-writeR {
+    color: #000;
+}
+
+.h2_title-writeR {
+    color: #000;
+}
+
+.email-input {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.pass-input {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.signin-input {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.signin-input:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.reg {
+    color: #000;
+}
+
+.signup-a {
+    color: rgb(29, 155, 240);
+}
+/*Change WriteR End*/

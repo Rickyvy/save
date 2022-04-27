@@ -1,0 +1,277 @@
+
+body{
+    background-color: #000;
+}
+
+h1{
+    color: #fff;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.486);
+}
+
+.footer{
+    background-color: #141414;
+}
+
+.btn-doc{
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn-reader {
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn-settings {
+    background-color: transparent;
+    color: #fff;
+}
+
+/*Change Email*/
+.h1_title-email{
+    background-color: #141414;
+}
+
+.change_div{
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+.input-email{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.changeEmail_btn{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/*Change Email End*/
+
+/*Change Pass*/
+.h1_title-pass{
+    background-color: #141414;
+}
+
+.input-pass{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.input-pass2{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.changePass_btn{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+/*Change Pass End*/
+
+/*Change Settings*/
+.h1_title-settings{
+    background-color: #141414;
+}
+
+.options {
+    background-color: #1a1a1abe;
+}
+
+.theme{
+    background-color: #1A1A1A;
+    color: #fff;
+}
+
+.theme:hover {
+    background-color: #fff;
+    color: #1A1A1A;
+}
+
+.change-email {
+    background-color: #1A1A1A;
+    color: #fff;
+}
+
+.change-email:hover {
+    background-color: #fff;
+    color: #1A1A1A;
+}
+
+.change-pass {
+    background-color: #1A1A1A;
+    color: #fff;
+}
+
+.change-pass:hover {
+    background-color: #fff;
+    color: #1A1A1A;
+}
+
+.logout {
+    background-color: #1A1A1A;
+    color: #ff0000;
+}
+
+.logout:hover {
+    background-color: #fff;
+    color: #ff0000;
+}
+
+/*Change Settings End*/
+
+/*Change Documents*/
+.input_search {
+    background-color: #262626;
+    color: #fff;
+}
+/*Change Documents End*/
+
+/*Change NewDocument*/
+.arrow_back {
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn-save {
+    background-color: transparent;
+    color: #32CD32;
+}
+
+.btn-share {
+    background-color: transparent;
+    color: #A19997;
+}
+
+.textarea{
+    color: #fff;
+    background-color: transparent;
+}
+
+.input-newdocument{
+    background-color: transparent;
+    color: #fff;
+}
+/*Change NewDocument End*/
+
+/*Change WriteF*/
+.arrow {
+    color: #fff;
+}
+
+.h2-writeF {
+    color: #fff;
+}
+
+.email-input {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.forgot-input {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.forgot-input:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.cancel {
+    color: #fff;
+}
+/*Change WriteF End*/
+
+/*Change WriteL*/
+.h2-writeL {
+    color: #fff;
+}
+
+.email-input {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.pass-input {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.signin-input {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.signin-input:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.a-writeL {
+    color: #a9a9a9;
+}
+
+
+.reg {
+    color: #fff;
+}
+
+.signup-a {
+    color: rgb(29, 155, 240);
+}
+/*Change WriteL End*/
+/*Change WriteR*/
+
+.h1-writeR {
+    color: #fff;
+}
+
+.h2_title-writeR {
+    color: #fff;
+}
+
+.email-input {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.pass-input {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.signin-input {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.signin-input:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.reg {
+    color: #fff;
+}
+
+.signup-a {
+    color: rgb(29, 155, 240);
+}
+/*Change WriteR End*/

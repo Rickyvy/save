@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent !important;
+
+    outline: none !important;
+    text-decoration: none;
+}
+
+body {
+    max-width: 412px;
+    max-height: 915px;
+    background-color: #000;
+    animation: fadeInAnimation ease 2s 1;
+    user-select: none;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.h1_title {
+    background-color: #141414;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Syne Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    margin-top: 15%;
+    margin-bottom: 5px;
+}
+.options {
+    background-color: #1a1a1abe;
+    width: 100%;
+    height: auto;
+    margin-top: 15%;
+}
+
+.theme {
+    width: 100%;
+    height: 40px;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Syne Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.change-email {
+    width: 100%;
+    height: 40px;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    font-family: 'Syne Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.change-pass {
+    width: 100%;
+    height: 40px;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    font-family: 'Syne Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.logout {
+    width: 100%;
+    height: 40px;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    color: #ff0000;
+}
+
+.p-theme {
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.p-changeemail {
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.p-changepass {
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.p-logout {
+    margin-right: auto;
+    margin-left: 10px;
+    font-family: 'Syne Mono', monospace;
+}
+
+.arrow {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 12%;
+    background-color: #141414;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.documents {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    opacity: 0.2;
+}
+
+.documents:hover {
+    opacity: 0.5;
+}
+
+.folder-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.btn-doc {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-family: 'Syne Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 15px;
+}
+
+.readerMode {
+    display: flex;
+    flex-direction: column;
+    opacity: 0.2;
+}
+
+.readerMode:hover {
+    opacity: 0.5;
+}
+
+.book-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.btn-reader {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-family: 'Syne Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 15px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    opacity: 1;
+}
+
+.btn-settings {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-family: 'Syne Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 15px;
+}
+
+.darkmode{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.bright{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.darkmode-p{
+    color: #fff;
+    font-family: 'Syne Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: 10px;
+}
+/*Slider*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2ecc71;
+  }
+  
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  .slider.round:before {
+    border-radius: 50%;
+  }

@@ -1,0 +1,100 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+    max-height: 915px;
+    max-width: 412px;
+    background-color: #000;
+    overflow: hidden;
+    user-select: none;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent !important;
+
+    outline: none !important;
+    text-decoration: none;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 412px;
+    max-height: 915px;
+}
+
+input {
+    text-indent: 5px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10%;
+
+}
+
+h1 {
+    font-family: 'Syne Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 30px;
+    color: #fff;
+}
+
+.auth {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.log {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+
+.log:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.reg {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.reg:hover {
+    background-color: #fff;
+    color: #000;
+}
